@@ -33,7 +33,7 @@ cd nome-do-repositorio
 `python manage.py runserver
 `
 
-5. AAcesse a aplicação em **http://localhost:8000/**
+5. Acesse a aplicação em **http://localhost:8000/**
 
 # Utilizando a imagem Docker
 
@@ -46,7 +46,7 @@ Também é possível utilizar a aplicação através de uma imagem Docker. Siga 
 
 ou
 
-- [Imagem](hub.docker.com/repository/docker/rigar/trabalho-python)
+- hub.docker.com/repository/docker/rigar/trabalho-python
 
 2. Execute o container:
 
