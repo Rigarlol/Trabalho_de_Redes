@@ -41,7 +41,7 @@ Também é possível utilizar a aplicação através de uma imagem Docker. Siga 
 
 1. Faça o download da imagem Docker:
 
-`docker pull nome-da-imagem
+`docker pull trabalho-python
 `
 
 ou
@@ -50,7 +50,7 @@ ou
 
 2. Execute o container:
 
-`docker run -p 8000:8000 nome-da-imagem
+`docker run -p 8000:8000 trabalho-python
 `
 
 3. Acesse a aplicação em **http://localhost:8000/**
