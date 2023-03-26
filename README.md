@@ -14,17 +14,21 @@ Antes de executar a aplicação, certifique-se de ter os seguintes requisitos in
 
 1. Clone este repositório:
 
-## Código
-
-Você pode inserir blocos de código usando aspas simples:
-
 `git clone https://github.com/seu-usuario/Trabalho_de_Redes.git
 cd nome-do-repositorio
 `
+2. Instale as dependências:
 
-Ou blocos de código com mais de uma linha usando três crases:
+`pip install -r requirements.txt
+`
+3. Execute as migrações do banco de dados:
 
-https://hub.docker.com/repository/docker/rigar/trabalho-python/general
+`python manage.py migrate
+`
+4. Execute a aplicação:
+
+`python manage.py runserver
+`
 
 
 ## Links
