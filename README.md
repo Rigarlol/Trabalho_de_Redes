@@ -33,20 +33,28 @@ cd nome-do-repositorio
 `python manage.py runserver
 `
 
+5. AAcesse a aplicação em **http://localhost:8000/**
 
-## Links
+# Utilizando a imagem Docker
 
-Você pode criar links para outros sites ou para outras partes do seu documento:
+Também é possível utilizar a aplicação através de uma imagem Docker. Siga as instruções abaixo:
 
-- [Google](https://www.google.com)
-- [Ir para a seção "Negrito e itálico"](#negrito-e-itálico)
+1. Faça o download da imagem Docker:
 
-## Imagens
+`docker pull nome-da-imagem
+`
 
-Você pode inserir imagens usando a sintaxe abaixo:
+ou
 
-![Texto alternativo](caminho/para/a/imagem.png)
+- [Imagem](hub.docker.com/repository/docker/rigar/trabalho-python)
 
-## Conclusão
+2. Execute o container:
 
-Essas são apenas algumas das coisas que você pode fazer com o Markdown. Há muitas outras opções de formatação disponíveis. Para saber mais, consulte a [documentação oficial do Markdown](https://www.markdownguide.org/basic-syntax/).
+`docker run -p 8000:8000 nome-da-imagem
+`
+
+3. Acesse a aplicação em **http://localhost:8000/**
+
+
+
+
