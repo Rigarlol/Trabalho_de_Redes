@@ -17,14 +17,17 @@ Antes de executar a aplicação, certifique-se de ter os seguintes requisitos in
 `git clone https://github.com/seu-usuario/Trabalho_de_Redes.git
 cd nome-do-repositorio
 `
+
 2. Instale as dependências:
 
 `pip install -r requirements.txt
 `
+
 3. Execute as migrações do banco de dados:
 
 `python manage.py migrate
 `
+
 4. Execute a aplicação:
 
 `python manage.py runserver
