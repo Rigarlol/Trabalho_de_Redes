@@ -6,27 +6,14 @@ Requisitos
 
 Antes de executar a aplicação, certifique-se de ter os seguintes requisitos instalados:
 
-Python 3.x
-Django 3.x
-Django REST framework
+- Python 3.x
+- Django 3.x
+- Django REST framework
 
-## Negrito e itálico
 
-Você pode usar o *itálico* e o **negrito** usando asteriscos ou underline:
 
-- *itálico*
-- **negrito**
 
-## Listas
 
-Você pode criar listas numeradas e não numeradas:
-
-1. Primeiro item
-2. Segundo item
-3. Terceiro item
-
-- Item não numerado
-- Outro item não numerado
 
 ## Código
 
